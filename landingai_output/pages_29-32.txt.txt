@@ -1,0 +1,161 @@
+﻿## Growth Indicator
+
+### Possible Score
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Possible Score</th>
+  </tr>
+  <tr>
+    <td>K-8</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>9-12</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Alternative 9-12</td>
+    <td>N/A</td>
+  </tr>
+</table>
+
+### Indicator Intent
+
+Awards schools points for student progress on state assessments. It fairly compares students entering at different levels and reflects academic growth even if standards aren’t met.
+
+### Indicator Details
+
+- **Measures:** Typically based on Student Growth Percentile (SGP) and Student Growth Target (SGT). For 2024-2025, SGT is excluded.
+- **Prospective SGTs:** ADE will produce these for grades 3–9 for the 2025–2026 school year to guide instruction.
+- **SGP Definition:** Reflects a student’s growth relative to peers with similar prior scores (range 1–99; e.g., an SGP of 40 means growth above 40% of peers).
+- **Separate SGPs:** Calculated for ELA and Math.
+- **Weighting:** Final scores are weighted based on prior-year achievement and growth.
+- **Data Source:** Only state assessment results are used (no demographic comparisons).
+
+### SGP Categorization
+
+- FAY students’ SGPs are categorized into:
+  - 1 = Low (SGP 1–33)
+  - 2 = Average (SGP 34–66)
+  - 3 = High (SGP 67–99)
+- For FY 2025, growth is calculated from 2023–2025 scores (grades 4–8 use AASA; cohort 2024 uses ACT Aspire).
+- For Traditional 9–12, Growth replaces the Subgroup Improvement Indicator (using Cohort 2023 ACT Aspire to current ACT).
+
+### Calculation: SGP
+
+**Inclusion Criteria:**
+- Students with a '1' in the StateGrowth column.
+- FAY students in grades 4–8 (cohort 2024) with matching enrolled and assessment grades.
+- Valid AASA or ACT scores (ACT ELA is the average of English, Reading, and Writing).
+- Must have valid test records for 2024–2025 and corresponding records from 2023 (or 2024 for cohort 2024).
+- Minimum of 10 FAY students with current and prior records.
+- **Excludes:** MSAA scores due to insufficient statewide data.
+
+### sgp_score_equation
+
+$$
+sgp\_score = \frac{model\_score}{2} \times \left( 
+\begin{bmatrix}
+1.0 \times ela\_pct\_py\_hp\_high+ \\
+1.2 \times ela\_pct\_py\_p\_high+ \\
+1.8 \times ela\_pct\_py\_pp\_high+ \\
+2.0 \times ela\_pct\_py\_mp\_high+ \\
+1.0 \times ela\_pct\_avg \\
+\end{bmatrix}
++
+\begin{bmatrix}
+1.0 \times math\_pct\_py\_hp\_high+ \\
+1.2 \times math\_pct\_py\_p\_high+ \\
+1.8 \times math\_pct\_py\_pp\_high+ \\
+2.0 \times math\_pct\_py\_mp\_high+ \\
+1.0 \times math\_pct\_avg \\
+\end{bmatrix}
+\right)
+$$
+
+- Points are awarded based on previous year scores and growth.
+
+### SGP Weights Table
+
+<table>
+  <tr>
+    <th>Prior-Year Achievement Level</th>
+    <th>Low Growth (SGP 1–33)</th>
+    <th>Average Growth (SGP 34–66)</th>
+    <th>High Growth (SGP 67–99)</th>
+  </tr>
+  <tr>
+    <td>Highly Proficient (HP)</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Proficient (P)</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1.2</td>
+  </tr>
+  <tr>
+    <td>Partially Proficient (PP)</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1.8</td>
+  </tr>
+  <tr>
+    <td>Minimally Proficient (MP)</td>
+    <td>0</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+</table>
+
+### 9th grade ACT Aspire Cut Scores (9th Grade)
+
+<table>
+  <tr>
+    <th>Prior-Year Achievement Level</th>
+    <th>ELA</th>
+    <th>Math</th>
+  </tr>
+  <tr>
+    <td>Exceeding (Highly Proficient)</td>
+    <td>433–456</td>
+    <td>434–460</td>
+  </tr>
+  <tr>
+    <td>Ready (Proficient)</td>
+    <td>426–432</td>
+    <td>428–433</td>
+  </tr>
+  <tr>
+    <td>Close (Partially Proficient)</td>
+    <td>419–425</td>
+    <td>422–427</td>
+  </tr>
+  <tr>
+    <td>In Need of Support (Minimally Proficient)</td>
+    <td>400–418</td>
+    <td>400–421</td>
+  </tr>
+</table>
+
+### Variables
+
+- **sgp_score:** Final growth score, capped at **model_score**.
+- **model_score:** Total possible score  
+  - K-8: **50**  
+  - 9-12: **20**  
+  - Alternative: **N/A**
+- **ela_pct_py_hp_high:** % of ELA results from the prior year that were Highly Proficient with high growth.
+- **ela_pct_py_p_high:** % of ELA results that were Proficient with high growth.
+- **ela_pct_py_pp_high:** % of ELA results that were Partially Proficient with high growth.
+- **ela_pct_py_mp_high:** % of ELA results that were Minimally Proficient with high growth.
+- **ela_pct_avg:** % of ELA results with any proficiency and average growth.
+- **math_pct_py_hp_high:** % of math results that were Highly Proficient with high growth.
+- **math_pct_py_p_high:** % of math results that were Proficient with high growth.
+- **math_pct_py_pp_high:** % of math results that were Partially Proficient with high growth.
+- **math_pct_py_mp_high:** % of math results that were Minimally Proficient with high growth.
+- **math_pct_avg:** % of math results with any proficiency and average growth.

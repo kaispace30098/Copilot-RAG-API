@@ -1,0 +1,173 @@
+﻿
+## A-F Fiscal Year 2024-2025 Business Rules
+
+# Overview of the A-F Letter Grade Accountability System
+
+## A-F Indicators
+
+---
+
+What does the A-F Accountability system measure?
+
+## Proficiency
+
+Students earn points for scoring Partially Proficient or above on state English and math tests. Higher points awarded for students with greater levels of proficiency. The school’s final score is based on the average points students score.
+
+A school’s proficiency score increases as students reach higher proficiency levels.
+
+**Considerations**: Points are deducted if a school tests fewer than 95% of students.
+
+## Growth
+
+The Growth Indicator is designed to award schools points for the progress students make on state achievement assessments. The Growth Indicator is designed to fairly compare students who enter school at different levels. It also demonstrates a student’s growth and academic progress, even if the student is not yet meeting standard.
+
+Student Growth Percentiles (SGP) compare each student’s growth to peers who scored similarly the previous year. Students can earn higher points depending on their previous score and level of growth. For example, Minimally Proficient in 2024 and high growth earns the highest points.
+
+**Considerations**: Student Growth Target (SGT), each student’s progress toward proficiency, is not included in the Growth Indicator this year.
+
+## English Learners
+
+Points earned based on the percentage of students reaching English proficiency, compared to the results of schools statewide. Schools also receive points for students whose English proficiency improves year to year. Higher points are earned for greater gains.
+
+**Considerations**: To earn EL points, schools must have enough students to be eligible for both EL growth and EL proficiency.
+
+## Graduation
+
+Traditional schools receive points based on the graduation rate for their 4, 5, 6, and 7-year cohorts. The 4-year cohort is worth the highest amount of points. Alternative schools earn points for the best graduation rate amongst their 4, 5, 6, and 7-year cohorts.
+
+Traditional schools can also earn points for improving their 4-year graduation rate. To get full points, a school's goal is to increase their graduation rate by 2% or achieve at least a 90% graduation rate.
+
+Alternative schools receive points based on the highest of their 4, 5, 6, and 7-year cohorts.
+
+**Considerations**: Graduation calculations use data from cohorts with a '1-year lag'. In other words, the 2024 cohort is used for 4-year grad rate data, 2023 cohort for 5-year, etc.
+
+## Growth to Graduation
+
+Alternative schools earn points for helping students stay in school, earn credits, and progress toward graduation.
+
+**Considerations**: Alternative schools submit data for this indicator in February and May.
+
+## Acceleration, Readiness
+
+K-8 schools earn points for improving outcomes in
+
+- 3rd grade literacy (reducing the number of students who score minimally proficient in reading),
+- 8th grade math (reducing the number of students who score minimally proficient, and/or increasing the number of students who score highly proficient),
+- Attendance (reducing the percentage of students who missed 10% or more of the school year),
+- test scores amongst student demographic groups,
+- and the inclusion of Special Education students in mainstream classes.
+
+**Considerations**: for many schools, there are more points available than are needed to earn the total score.
+
+## College and Career Readiness
+
+Traditional and Alternative 9-12 schools record graduating seniors’ completion of activities, including AP testing, dual enrollment, FAFSA completion, Career and Technical Education, workplace certification, and many others.
+
+## LEA Letter Grades
+
+LEAs will also receive a letter grade that is the rounded average of schools’ letter grades. LEAs with only one school will receive the grade of that school. [See the video here](#) for a brief overview.
+
+Considerations: All schools, regardless of size, have equal weight when calculating the average for the LEA grade.
+
+## Page Footer
+
+Last updated: 8/22/2025 15:19:02
+
+## A-F Fiscal Year 2024-2025 Business Rules
+
+## A-F Letter Grade Models
+
+The image presents three pie charts representing different grade models: K8, 9-12, and Alt. Each chart is divided into segments with specific percentages and color-coded categories. Below the charts, a legend explains the categories.
+
+### Pie Charts
+
+- **K8 Model:**
+  - **Proficiency (Blue):** 30%
+  - **Growth (Green):** 50%
+  - **English Learners (Orange):** 10%
+  - **Acceleration, Readiness (Yellow):** 10%
+
+- **9-12 Model:**
+  - **Proficiency (Blue):** 30%
+  - **Growth (Green):** 20%
+  - **College, Career Readiness (Purple):** 20%
+  - **Graduation (Red):** 20%
+  - **Growth to Graduation (Orange):** 10%
+
+- **Alt Model:**
+  - **Proficiency (Blue):** 15%
+  - **Growth (Green):** 10%
+  - **College, Career Readiness (Purple):** 35%
+  - **Graduation (Red):** 30%
+  - **Growth to Graduation (Orange):** 10%
+
+### Legend
+
+- **Proficiency:** Blue
+- **Growth:** Green
+- **English Learners:** Orange
+- **Acceleration, Readiness:** Yellow
+- **College, Career Readiness:** Purple
+- **Graduation:** Red
+- **Growth to Graduation:** Orange
+
+The pie charts illustrate the distribution of focus areas within each grade model, highlighting the emphasis on different educational metrics such as proficiency, growth, and readiness.
+
+<table>
+  <tr>
+    <th>Indicator</th>
+    <th>Traditional K-8</th>
+    <th>Traditional 9-12</th>
+    <th>Alternative 9-12</th>
+  </tr>
+  <tr>
+    <td>Proficiency</td>
+    <td>30%</td>
+    <td>30%</td>
+    <td>15%</td>
+  </tr>
+  <tr>
+    <td>English Learners</td>
+    <td>10%</td>
+    <td>10%</td>
+    <td>10%</td>
+  </tr>
+  <tr>
+    <td>Growth</td>
+    <td>50%</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Acceleration/Readiness(AR)</td>
+    <td>10%</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Graduation</td>
+    <td></td>
+    <td>20%</td>
+    <td>10%</td>
+  </tr>
+  <tr>
+    <td>College, Career Readiness</td>
+    <td></td>
+    <td>20%</td>
+    <td>35%</td>
+  </tr>
+  <tr>
+    <td>Subgroup Improvement</td>
+    <td></td>
+    <td>20%</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Growth to Graduation</td>
+    <td></td>
+    <td></td>
+    <td>30%</td>
+  </tr>
+</table>
+
+

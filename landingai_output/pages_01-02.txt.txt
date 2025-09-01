@@ -1,0 +1,80 @@
+## Table of Contents
+
+- Contact Information..................................................2
+- Introduction.............................................................5
+- Business Rules..........................................................6
+- Overview of the A-F Letter Grade Accountability System........7
+  - A-F Indicators..........................................................7
+  - A-F Letter Grade Models...........................................9
+    - Indicator Model Weights........................................10
+    - A-F Life Cycle......................................................11
+    - Important Timelines..............................................12
+    - School Configurations..........................................13
+    - Cut Scores..........................................................13
+    - Statutory Provisions.............................................14
+    - A-F Static File.....................................................14
+- Key Terms...............................................................15
+- A-F Technical Guidance.............................................23
+  - Proficiency Indicator..............................................23
+    - Possible Score....................................................23
+    - Indicator Intent...................................................23
+    - Indicator Details.................................................23
+    - Updates for fiscal year 2024-2025:.........................24
+    - Percent Tested (Participation)...............................24
+  - Growth Indicator...................................................30
+    - Possible Score....................................................30
+    - Indicator Intent...................................................30
+    - Indicator Details.................................................30
+    - Updates for school year 2024-2025..........................31
+  - EL Indicator..........................................................34
+    - Possible Score....................................................34
+    - Indicator Details.................................................34
+    - Updates for school year 2024-2025..........................34
+    - EL Proficiency Component...................................34
+    - EL Growth Component........................................34
+## A-F Fiscal Year 2024-2025 Business Rules
+
+## Acceleration/Readiness Indicator
+- Possible Score
+- Updates for fiscal year 2024-2025
+- Grade 8 Math Performance Component
+- Grade 3 ELA Minimally Proficient Component
+- Chronic Absenteeism Reduction Component
+- K-8 Subgroup Improvement Component
+- Special Education Inclusion Component
+
+## Graduation Indicator
+- Possible Score
+- Updates for fiscal year 2025
+- 4, 5, 6, 7-year Graduation Rate Component
+- 4-year Graduation Rate Improvement Component (Traditional 9-12 only)
+
+## Growth to Graduation Indicator (Alternative 9-12 only)
+- Possible Score
+- Updates for fiscal year 2025
+- Academic Persistence Component
+- Credits Earned Component
+- On-Track to Graduate Component
+
+## CCRI (College and Career Readiness Indicator)
+- Possible Score
+- Updates for fiscal year 2025
+- Indicator Intent
+
+## Bonus Points
+- Possible Bonus Points
+- Updates for fiscal year 2024-2025
+- Special Education Enrollment Bonus
+- Science Proficiency Bonus
+- ACT Aspire Participation Bonus
+- CCRI: Military/Post-Secondary Enrollment Bonus (Traditional 9-12 only)
+- Subgroup 5-year Graduation Rate Bonus (Alternative 9-12 only)
+
+
+## Calculating LEA Letter Grades
+
+## Appendix
+- List of Acronyms and Abbreviations
+- Fiscal Year 2025 A-F CCRR Credentials for CTE Programs
+- On-Track to Graduate Inclusion Flowchart
+

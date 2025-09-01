@@ -1,0 +1,48 @@
+## Cut Scores
+
+- To place all schools on an equivalent scale, cut scores are established on a 100-point scale, based on the percentage of eligible points each school earns.
+- Pursuant to A.R.S. § 15-241.02(D), schools that receive three consecutive D's "shall be assigned a letter grade of F unless an alternate letter grade is assigned after an appeal...". Schools receiving a third "D" letter grade are assigned a "D" in the initial release of A-F Letter Grades. If the school does not file an appeal of their grade, it is changed to an F following the close of the A-F Letter Grade Appeal window.
+- The table below shows cut scores approved by the State Board of Education for school years 2023-2024 and 2022-2023.
+
+
+    <td>pending</td>
+  </tr>
+  <tr>
+    <td>9-12</td>
+    <td>2023</td>
+    <td>100:82</td>
+    <td>81.99:65</td>
+    <td>64.99:48</td>
+    <td>47.99:31</td>
+    <td>30.99:0</td>
+  </tr>
+  <tr>
+    <td>9-12*</td>
+    <td>2024</td>
+    <td>pending</td>
+    <td>pending</td>
+    <td>pending</td>
+    <td>pending</td>
+    <td>pending</td>
+  </tr>
+  <tr>
+    <td>Alt. 9-12</td>
+    <td>2023</td>
+    <td>100 : 83</td>
+    <td>82.99 : 65</td>
+    <td>64.99 : 47</td>
+    <td>46.99 : 29</td>
+    <td>28.99 : 0</td>
+  </tr>
+  <tr>
+    <td>Alt. 9-12</td>
+    <td>2024</td>
+    <td>pending</td>
+    <td>pending</td>
+    <td>pending</td>
+    <td>pending</td>
+    <td>pending</td>
+  </tr>
+</table>
+
+*Note: Non-typical schools receive a grade based on the 9-12 cut scores.*

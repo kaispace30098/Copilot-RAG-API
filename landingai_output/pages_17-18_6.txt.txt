@@ -1,0 +1,4 @@
+
+## Parent in Military
+
+- Student data submitted via AzEDS in the Parent in Military field.

@@ -1,0 +1,129 @@
+﻿## Growth to Graduation Indicator (Alternative 9-12 only)
+#Growth to Graduation Calculation
+#Growth to Graduate
+
+### Possible Score
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Academic Persistence</th>
+    <th>Credits Earned</th>
+    <th>On-Track to Graduate</th>
+    <th>Total Possible Score</th>
+  </tr>
+  <tr>
+    <td>K-8</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>9-12</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Alternative 9-12</td>
+    <td>10</td>
+    <td>10</td>
+    <td>10</td>
+    <td>30</td>
+  </tr>
+</table>
+
+### Updates for Fiscal Year 2025
+
+- No updates to the Growth to Graduation Indicator for FY 2025.
+
+--------------------------------------------------
+
+## Academic Persistence Component
+
+**Intent:**  
+Reward Alternative 9-12 schools whose grade 9–12 students (from the 2022–2023 school year with an applicable Year-End Status Code) re-enrolled at any Arizona public school by October 1, 2024.
+
+**Details:**  
+- Data is validated using the “Persistence Rate Report” in ADEConnect.  
+- Includes DRP Enrolled Students with an applicable prior withdrawal code.
+
+**Calculation (0–10 points):**
+
+Inclusion: Grade 9–12 students from 2022–2023 meeting the criteria.
+
+**Equation:**
+
+$$
+persistence\_pts = 10 \left( \frac{n\_reenrolled\_oct1}{n\_eligible\_students} \right)
+$$
+
+**Variables:**  
+- **persistence_pts:** Points awarded (max 10).  
+- **n_eligible_students:** Number of eligible grade 9–12 students from 2022–2023.  
+- **n_reenrolled_oct1:** Number of eligible students who re-enrolled by October 1.
+
+--------------------------------------------------
+
+## Credits Earned Component
+
+**Intent:**  
+Reward schools for helping students earn the required credits toward graduation.
+
+**Details:**  
+- Schools report the percentage of students (meeting inclusion criteria) who earned ≥4.5 credits or the remaining credits needed by June 30, 2025.  
+- Data must be submitted via the ADEConnect Excel template (only LEA, school info, and SSIDs are included).  
+- If fewer than 10 eligible students, schools submit “N/A” to remove the component from the final grade.
+
+**Calculation (0–10 points):**
+
+**Equation:**
+
+$$
+\text{creds\_earned\_pts} = 10 \left( \frac{\text{n\_stu\_completing\_req\_creds}}{\text{n\_enrolled\_80\_days}} \right)
+$$
+
+**Variables:**  
+- **creds_earned_pts:** Points awarded for credits earned.  
+- **n_stu_completing_req_creds:** Number of students meeting the credit requirement.  
+- **n_enrolled_80_days:** Total number of students meeting the enrollment criteria.
+
+--------------------------------------------------
+#Growth to Graduation Calculation
+## On-Track to Graduate Component
+
+**Intent:**  
+Award points for students reported as on-track to graduate.
+
+**Details:**  
+- Alternative 9–12 schools submit data twice (Initial: March 15, 2025; Final: July 31, 2025) via ADEConnect.  
+- Submission must include only LEA info and SSIDs.  
+- If <10 eligible students, schools submit “N/A” to exclude the component.
+
+**Inclusion Criteria:**  
+Students are included if they satisfy **either**:  
+- **Condition 1:** Enrolled on January 31, 2025, need ≤3 credits to meet graduation requirements and ≤1 remaining math credit; or  
+- **Condition 2:** Graduated during 2024–2025 before January 31, 2025.  
+- DRP students meeting criteria are also included.
+
+**Calculation (0–10 points):**
+
+**Equation:**
+
+$$
+\text{otg\_pts} = 10 \left( \frac{n\_graduated}{n\_on\_track\_to\_graduation} \right)
+$$
+
+**Variables:**  
+- **otg_pts:** Points awarded for On-Track to Graduate.  
+- **n_graduated:** Number of students who graduated (from the on-track list).  
+- **n_on_track_to_graduation:** Number of students initially reported as on-track.
+
+
+#Growth to Graduation Calculation
+
+#Growth to Graduation Calculation
+#Calculate Growth to Graduation
+

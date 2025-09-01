@@ -1,0 +1,277 @@
+﻿## Proficiency Indicator
+
+### Possible Score
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Possible Score</th>
+  </tr>
+  <tr>
+    <td>K-8</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>9-12</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>Alternative 9-12</td>
+    <td>15</td>
+  </tr>
+</table>
+
+### Indicator Intent & Details
+
+This indicator awards schools points based on student proficiency in English Language Arts and Mathematics. Points are earned for scores of Partially Proficient or higher, with higher proficiency levels earning more points. It also meets the Ariz. Admin. Code R7-2-310.D requirement regarding 95% test participation.
+
+- **Assessments Used:**  
+  - **2025 AASA, ACT, or MSAA** scores for grades 3–8 and cohort 2026 FAY.  
+  - A minimum of 10 FAY students is required.  
+  - For repeated tests, only the highest score counts.  
+  - National ACT scores may substitute (see https://www.azed.gov/sites/default/files/2024/01/ACT%20Score%20Replacement%20%20parent%20consent%20form.pdf).  
+  - FAY students tested at more than one school are counted in all applicable static files.  
+  - Invalid records count as not tested and proficiency points are capped per model.
+
+- **Scoring Levels:**  
+  - Partially Proficient: **0.6 points**  
+  - Proficient: **1.0 point**  
+  - Highly Proficient: **1.3 points**
+
+The final indicator is an average of the points earned by students—not simply the percentage proficient.
+
+### Performance Level Point Values
+
+<table>
+  <tr>
+    <th>Description</th>
+    <th>Performance Level</th>
+    <th>Point Value</th>
+  </tr>
+  <tr>
+    <td>Minimally Proficient</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Partially Proficient</td>
+    <td>2</td>
+    <td>0.6</td>
+  </tr>
+  <tr>
+    <td>Proficient</td>
+    <td>3</td>
+    <td>1.0</td>
+  </tr>
+  <tr>
+    <td>Highly Proficient</td>
+    <td>4</td>
+    <td>1.3</td>
+  </tr>
+</table>
+
+### K-8 Proficiency Calculation Methods
+
+For K-8, proficiency is calculated two ways:
+- **Overall FAY Proficiency:** Using all FAY students.
+- **Stability Proficiency:** Weighting scores by the number of years as FAY.  
+
+The higher of these two totals is used for letter grade calculations.
+
+*Update for 2024-2025:* Math records for RAEL students are excluded.
+
+---
+
+## Percent Tested (Participation)
+
+Students enrolled in a tested grade (3–8, cohort 2026) on the first day of testing are included.
+
+### First Day of Testing Windows
+
+<table>
+  <tr>
+    <th>Assessment</th>
+    <th>1st Day of Testing Window</th>
+  </tr>
+  <tr>
+    <td>AASA</td>
+    <td>April 1, 2025</td>
+  </tr>
+  <tr>
+    <td>ACT</td>
+    <td>April 9, 2025</td>
+  </tr>
+  <tr>
+    <td>MSAA</td>
+    <td>April 1, 2025</td>
+  </tr>
+</table>
+
+### pct_multiplier_equation
+
+$$
+pct\_multiplier = \frac{(n\_tested\_ela\_and\_math)}{2 \times 0.95 \times (n\_enrolled\_test\_day\_1)}
+$$
+
+- **Variables:**  
+  - **n_tested_ela_and_math:** Total students tested in ELA plus Math.  
+  - **n_enrolled_test_day_1:** Students in grades 3–8 and cohort 2026 enrolled on test day 1.
+
+---
+
+## Proficiency Calculation
+
+### Inclusion Criteria
+
+Students included must be FAY in grades 3–8 (cohort 2026) with:
+- Matching enrolled grade and assessment grade.
+- A valid score on AASA, ACT, or MSAA (ACT ELA is the average of ACT English, Reading, and Writing).
+- RAEL test records are excluded.
+
+### Calculator Interface
+
+An image shows a 2x2 grid of four black buttons with white symbols:
+- **Top Left:** `+` (addition)
+- **Top Right:** `-` (subtraction)
+- **Bottom Left:** `×` (multiplication)
+- **Bottom Right:** `=` (equality)
+
+### avg_prof_equation
+
+$$
+avg\_prof = \frac{0.6 \times (n\_fay\_ela\_PP + n\_fay\_math\_PP) + 1.0 \times (n\_fay\_ela\_P + n\_fay\_math\_P) + 1.3 \times (n\_fay\_ela\_HP + n\_fay\_math\_HP)}{(n\_fay\_tested\_ela + n\_fay\_tested\_math)}
+$$
+
+- **Variables:**  
+  - **n_fay_ela_PP:** FAY students scoring Partially Proficient in ELA  
+  - **n_fay_math_PP:** FAY students scoring Partially Proficient in Math  
+  - **n_fay_ela_P:** FAY students scoring Proficient in ELA  
+  - **n_fay_math_P:** FAY students scoring Proficient in Math  
+  - **n_fay_ela_HP:** FAY students scoring Highly Proficient in ELA  
+  - **n_fay_math_HP:** FAY students scoring Highly Proficient in Math  
+  - **n_fay_tested_ela:** Total FAY students tested in ELA  
+  - **n_fay_tested_math:** Total FAY students tested in Math
+
+---
+
+## Stability Proficiency (K-8 Only)
+
+For K-8, stability proficiency weights scores by the number of years as FAY by sorting students into three groups:
+- **FAYa:** Most years FAY  
+- **FAYb:** Second most  
+- **FAYc:** Fewest years  
+
+Each FAY-year group must have at least 10 tested students; if not, groups are merged.
+
+### Examples
+
+#### Example 1
+
+<table>
+  <tr>
+    <th>FAY students</th>
+    <th>Group</th>
+  </tr>
+  <tr>
+    <td>3-year FAY<br>(20 students)</td>
+    <td>FAYa<br>(20 students)</td>
+  </tr>
+  <tr>
+    <td>2-year FAY<br>(20 students)</td>
+    <td>FAYb<br>(20 students)</td>
+  </tr>
+  <tr>
+    <td>FAY<br>(20 students)</td>
+    <td>FAYc<br>(20 students)</td>
+  </tr>
+</table>
+
+#### Example 2
+
+<table>
+  <tr>
+    <th>FAY students</th>
+    <th>Group</th>
+  </tr>
+  <tr>
+    <td>3-year FAY (8 students)</td>
+    <td>FAYa (21 students)</td>
+  </tr>
+  <tr>
+    <td>2-year FAY (13 students)</td>
+    <td>FAYa (21 students)</td>
+  </tr>
+  <tr>
+    <td>FAY (20 students)</td>
+    <td>FAYb (20 students)</td>
+  </tr>
+</table>
+
+### FAY Group Multipliers
+
+<table>
+  <tr>
+    <th>Number of FAY Groups</th>
+    <th colspan="3">Multiplier Values</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>F<sub>a</sub></th>
+    <th>F<sub>b</sub></th>
+    <th>F<sub>c</sub></th>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
+
+### avg_prof_stability_equation
+
+$$
+avg\_prof\_stability = \left( \frac{ 
+F_a(avg\_prof\_FAY_a) + 
+F_b(avg\_prof\_FAY_b) + 
+F_c(avg\_prof\_FAY_c) 
+}{ 
+F_a + F_b + F_c 
+} \right)
+$$
+
+- **Variables:**  
+  - **avg_proficiency_FAYa:** Average proficiency for FAYa  
+  - **avg_proficiency_FAYb:** Average proficiency for FAYb  
+  - **avg_proficiency_FAYc:** Average proficiency for FAYc  
+  - **Fₐ, F_b, F_c:** Respective FAY group multipliers
+
+---
+
+## Final Proficiency Points
+
+### final_prof_points_equation
+
+$$
+\text{prof\_points} = \text{avg\_prof} \times 100 \times \text{pct\_multiplier} \times \text{model\_weight}
+$$
+
+- **Variables:**  
+  - **avg_prof:** The average proficiency (for K-8, use the higher of avg_prof or avg_prof_stability).  
+  - **pct_multiplier:** Based on the percentage of tested students.  
+  - **model_weight:** Points available in each model  
+    - K-8: **30**  
+    - 9-12: **30**  
+    - Alternative: **15**

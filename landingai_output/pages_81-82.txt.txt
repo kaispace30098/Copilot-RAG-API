@@ -1,0 +1,68 @@
+
+## On-Track to Graduate Inclusion Flowchart
+
+## Alternative 9-12 Schools On-Track Inclusion Flowchart
+
+This flowchart is designed to determine whether a student should be included in the school's data submission for on-track graduation.
+
+### Flowchart Steps:
+
+1. **Initial Question**: 
+   - **Was the student enrolled at your school?**
+     - If **No**, proceed to the next step.
+     - If **Yes**, follow the path to the next question.
+
+2. **Subsequent Question**:
+   - **Did the student graduate from your school in the 2023 fiscal year prior to Jan. 31, 2023?**
+     - If **No**, the student should not be included in the school's 2022 On-Track Graduation data submission.
+     - If **Yes**, the student should be included in the school's data submission.
+
+### Decision Outcomes:
+
+- **No Enrollment**: If the student was not enrolled, they are not included in the data submission.
+- **Graduation Status**:
+  - **Not Graduated**: The student is not included in the 2022 On-Track Graduation data submission.
+  - **Graduated**: The student is included in the school's data submission.
+
+### Visual Elements:
+
+- **Boxes**:
+  - Yellow box for initial enrollment question.
+  - Orange box for graduation status question.
+  - Red box indicating exclusion from data submission.
+  - Green box indicating inclusion in data submission.
+
+- **Arrows**: Direct the flow from questions to outcomes based on Yes/No answers.
+
+
+- January 22, 2024 - Removed high school Subgroup Improvement from model pie charts and Indicator Summary table
+
+## February 16, 2024
+
+- Removed references to Student Growth Target (SGT). SGT will not be included in 2023-2024 letter grades
+- Clarified language in updates to 4, 5, 6, 7-year Graduation Rate Component
+
+## February 21, 2024
+
+- Added additional information about appeals consideration process for students with disabilities who have educational needs beyond 4 years
+- Clarified Aspire performance levels used for prior year weighting with Student Growth Percentiles.
+- Added 2023 EL proficiency and growth ranges
+
+## April 2024
+
+- Added icons to make it easier to find intent, updates, and calculation sections
+- Added detail to A-F Overview
+
+## June 2024
+
+- Reverted definition of FAY for achievement assessment results. We found an inconsistency in our source data that led to problems when implementing the proposed earlier FAY cutoff date. We had to change it back to the May 1 timeline that has been used previously.
+- Clarified the inclusion of early graduates in the CCRI calculations.
+
+Icons:
+
+## Key-Value Pairs
+
+Calculation: "https://www.flaticon.com/free-icons/calculator"  
+Updates: "https://www.flaticon.com/free-icons/reload"  
+Intent: "https://www.flaticon.com/free-icons/goal"
+

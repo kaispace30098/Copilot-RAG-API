@@ -1,0 +1,6 @@
+
+## Special Education
+
+- **Special Education Student** - Any student receiving special education services on October 1, 2024 as defined by federal law. To confirm whether a student meets this criterion, schools can check their SPED07 report in the ESS Census Application. Information regarding the ESS Census process can be found here: [http://www.azed.gov/specialeducation/data-management/federal-sped-census/](http://www.azed.gov/specialeducation/data-management/federal-sped-census/)
+
+- **Special Education Cohort** - Any student who received special education services during high school.

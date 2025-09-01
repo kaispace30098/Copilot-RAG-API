@@ -1,0 +1,4 @@
+## Ethnicity
+
+- Student data submitted via AzEDS in the ethnicity fields (i.e., White, African American, Hispanic, Native American/Alaskan Indian, Asian, or Pacific Islander) is used for the subgroup calculations.
+

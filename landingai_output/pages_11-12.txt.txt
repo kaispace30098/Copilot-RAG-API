@@ -1,0 +1,32 @@
+﻿## School Configurations (4 Models and their examples)
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Description</th>
+    <th>Examples</th>
+  </tr>
+  <tr>
+    <td>K-8</td>
+    <td>Schools serving grades K through 8 or any configuration within will be evaluated on the K-8 model</td>
+    <td>K-8, K-5, 6-8, K-2, etc.</td>
+  </tr>
+  <tr>
+    <td>Traditional 9-12</td>
+    <td>Schools serving grades 9 through 12 or any configuration within will be evaluated on the 9-12 model.</td>
+    <td>9-12, 9-10, 10-12, etc.</td>
+  </tr>
+  <tr>
+    <td>Alternative 9-12</td>
+    <td>Approved Alternative Schools will be graded on the Alternative School Model.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Non-Typical</td>
+    <td>Non-Typical school configurations, those that serve students within grades K-8 as well as grades 9-12 are graded on both the K-8 and 9-12 models. The final A-F Letter Grade score is weighted according to the percentage of students contributing to each model</td>
+    <td>K-12, 1-12, 2-12, 6-12, etc.</td>
+  </tr>
+</table>
+
+* During the static file data validation window in June, it is important for each school to verify the accountability model is correctly assigned in the static file.
+

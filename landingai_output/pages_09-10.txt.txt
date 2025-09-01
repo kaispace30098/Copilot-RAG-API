@@ -1,0 +1,184 @@
+﻿## A-F Fiscal Year 2023-2024 Business Rules
+Accountability Life Cycle
+Timeline by Month
+
+
+## A-F Life Cycle
+
+The visual below provides an overview of important tasks in the A-F process. See the [Important Timelines](#) section for specific dates. **Start dates are in black, due dates in red.** Tasks that affect the following school year's accountability are followed by "SY 24-25".
+
+## Arizona Department of Education Timeline
+
+This figure provides a detailed timeline of key activities and deadlines for the Arizona Department of Education across different seasons of the year.
+
+### Summer: May - July
+
+- **May**
+  - Self-Reported Data Submission opens (CCRI, On-Track to Grad, Credits Earned)
+  - Begin Test Records Correction in ADE Connect
+  - Begin graduation and cohort data validation (SY 24-25)
+
+- **June**
+  - Begin Static File V1 validation
+  - Test Records Correction in ADE Connect due
+  - DRP Applications due (SY 24-25)
+  - Finalize graduation and cohort data validation (SY 24-25)
+
+- **July**
+  - Static File V1 Validation due
+  - Self-Reported Data due (CCRI, OTG, Credits Earned)
+
+### Fall: August - October
+
+- **August**
+  - Begin Static File V2 validation
+
+- **September**
+  - Static File V2 Validation due
+
+- **October**
+  - Begin AzEDS Income Eligibility data validation (SY 24-25)
+
+### Winter: November - January
+
+- **November**
+  - A-F Public File release
+  - A-F Appeals Window typically takes place
+
+- **December**
+  - No deadlines
+
+- **January**
+  - AzEDS Income Eligibility data validation due (SY 24-25)
+
+### Spring: February - April
+
+- **February**
+  - Alternative Schools Application opens (SY 24-25)
+  - Initial On-Track to Graduate Submission opens
+
+- **March**
+  - Initial On-Track to Graduate Submission due
+  - Alternative Schools Application due (SY 24-25)
+
+- **April**
+  - No deadlines
+
+### Visual Description
+
+The figure is a circular timeline divided into four sections, each representing a season: Summer, Fall, Winter, and Spring. Each section lists specific tasks and deadlines relevant to that time period. The center of the circle features the Arizona Department of Education logo. The timeline is color-coded: Summer is in orange, Fall in red, Winter in blue, and Spring in green. Each task and deadline is clearly marked with the corresponding month.
+
+<table>
+  <tr>
+    <th>Task</th>
+    <th>K-8</th>
+    <th>9-12</th>
+    <th>Alt</th>
+    <th>Start Date</th>
+    <th>Due Date</th>
+  </tr>
+  <tr>
+    <td>Verify Income Eligibility AzEDS student level data (used in Accountability October 1 reporting)</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>10-31-2024</td>
+    <td>1-18-2025</td>
+  </tr>
+  <tr>
+    <td>Alternative Schools Application for fiscal year 2026</td>
+    <td>[ ]</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>Early Feb. 2025</td>
+    <td>3-31-2025</td>
+  </tr>
+  <tr>
+    <td>Initial On-Track to Graduate Submission</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>Early Feb. 2025</td>
+    <td>3-15-2025</td>
+  </tr>
+  <tr>
+    <td>Submit CCRI Self-Reported Data</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>Early May</td>
+    <td>7-31-2025</td>
+  </tr>
+  <tr>
+    <td>Submit Credits Earned Self-Reported Data</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>Early May</td>
+    <td>7-31-2025</td>
+  </tr>
+  <tr>
+    <td>Final On-Track to Graduate Submission</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>Early May</td>
+    <td>7-30-2025</td>
+  </tr>
+  <tr>
+    <td>Correct Test Records in ADEConnect</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>Mid May</td>
+    <td>6-30-2025</td>
+  </tr>
+  <tr>
+    <td>Validate Graduation Data for fiscal year 2025 graduates</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>Late May</td>
+    <td>7-01-2025</td>
+  </tr>
+  <tr>
+    <td>Static File V1 Validation</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>Mid June</td>
+    <td>7-15-2025</td>
+  </tr>
+  <tr>
+    <td>Validate Static File V2</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>Mid August</td>
+    <td>9-15-2025</td>
+  </tr>
+  <tr>
+    <td>A-F Public File release on the State Board of Education’s website</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>by 11-1-2025</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>A-F Appeals Window</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>Typically 11-1-2025</td>
+    <td>Typically mid-Nov. 2025</td>
+  </tr>
+  <tr>
+    <td><a href="#">DRP Application for fiscal year 2026</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>6-30-2025</td>
+  </tr>
+</table>

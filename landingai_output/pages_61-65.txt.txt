@@ -1,0 +1,148 @@
+﻿## CCRI (College and Career Readiness Indicator)
+
+### Possible Score
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Possible Score</th>
+  </tr>
+  <tr>
+    <td>K-8</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>9-12</td>
+    <td>20*</td>
+  </tr>
+  <tr>
+    <td>Alternative 9-12</td>
+    <td>35</td>
+  </tr>
+</table>
+* Students can earn up to 22, but school scores are capped at 20.
+
+### Updates for Fiscal Year 2025
+
+- No updates to CCRI for school year 2024-2025.
+
+### Indicator Intent
+
+- Award points to schools that encourage graduates to engage in activities preparing them for post-secondary success.
+
+### Indicator Details
+
+- CCRI scores are self-reported via ADEConnect by **July 31, 2025**.
+- Schools ineligible for CCRI points must submit a Self-Report indicating ineligibility (to remove the Indicator from the final grade, not to receive 0 points).
+- Students concurrently enrolled at multiple schools are reported for their diploma-issuing school.
+- Documentation must be available if monitored.
+- Schools may download a student-level spreadsheet from ADEConnect for calculations.
+- **Key Differences Between Traditional 9-12 and Alternative 9-12:**
+
+  <table>
+    <tr>
+      <th>Detail</th>
+      <th>Traditional 9-12</th>
+      <th>Alternative 9-12</th>
+    </tr>
+    <tr>
+      <td>Eligibility</td>
+      <td>
+        <ul>
+          <li>≥10 students in cohort 2025</li>
+          <li>Enrolled by Oct. 1, 2024 and continuously until May 1, 2025</li>
+          <li>Includes cohort 2025 students who graduated earlier</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>≥10 students in the On-Track to Graduation initial submission OR who graduated in 2024-2025</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>CCRI Points</td>
+      <td>Based on Blue (college readiness) and Red (career readiness) points</td>
+      <td>Students with ≥1 CCRI point earn a score of 35</td>
+    </tr>
+    <tr>
+      <td>Final Student Score</td>
+      <td>0, 10, 20, or 22</td>
+      <td>0 or 35</td>
+    </tr>
+    <tr>
+      <td>Final School Score</td>
+      <td>Average of student scores (0–20; capped at 20)</td>
+      <td>Average of student scores (0–35)</td>
+    </tr>
+    <tr>
+      <td>Bonus Point</td>
+      <td>+1 point if cohort 2025 shows increased post-secondary enrollment/military enlistment vs. cohort 2024</td>
+      <td>None</td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td>• 85% or more of cohort 2025 either enroll in post-secondary education or enlist in the military</td>
+    </tr>
+  </table>
+
+### Calculation, CCRI: Traditional 9-12 (0–20 points)
+
+**Inclusion Criteria:**  
+- All cohort 2025 students continuously enrolled between Oct. 1, 2024, and May 1, 2025 (including those who graduated earlier).
+
+**Equation:**
+
+$$
+ccri\_final\_score = \left( \frac{sum\_student\_scores}{total\_students} \right)
+$$
+
+**Variables:**  
+- **ccri_final_score:** Average of eligible students’ CCRI scores (capped at 20).  
+- **total_students:** Total number of eligible students.  
+- **sum_student_score:** Sum of CCRI scores of eligible students.
+
+### Table Description for Student Scoring (Traditional 9-12)
+
+<table>
+  <tr>
+    <th>CCRI <em>POINTS</em> earned</th>
+    <th>SCORE</th>
+  </tr>
+  <tr>
+    <td>≥ 1 CCRI point</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>≥ 2 CCRI points</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>≥ 1 BLUE CCRI point <strong>AND</strong> ≥ 1 RED CCRI point</td>
+    <td>22</td>
+  </tr>
+</table>
+
+**Inclusion for CCRI:**  
+- Students included if they were in the On-Track to Graduation initial submission for 2024-2025, **OR** graduated in 2024-2025.
+
+(Equation and variables are as above.)
+
+### Table for Alternative 9-12
+
+<table>
+  <tr>
+    <th>CCRI POINTS earned</th>
+    <th>SCORE</th>
+  </tr>
+  <tr>
+    <td>Less than 1 CCRI point</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>≥ 1 CCRI point</td>
+    <td>35</td>
+  </tr>
+</table>

@@ -1,0 +1,23 @@
+# pyproject.toml (The Corrected Version)
+
+[tool.poetry]
+name = "copilot-chatbot-rag-api"
+version = "0.1.0"
+description = ""
+authors = ["Tom Chang <ckf30098@yahoo.com.tw>"]
+readme = "README.md"
+packages = [{include = "copilot_chatbot_rag_api", from = "src"}]
+
+[tool.poetry.dependencies]
+# Use a stable Python version like 3.12 for better package compatibility
+python = ">=3.12, <3.15"
+langchain-community = "^0.3.29"
+sentence-transformers = "^5.1.0"
+faiss-cpu = "^1.12.0"
+fastapi = {extras = ["all"], version = "^0.116.1"}
+langchain-huggingface = "^0.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

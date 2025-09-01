@@ -1,0 +1,4 @@
+## Income Eligibility 1 & 2
+
+- Student data submitted via AzEDS in the IncomeEligibility1 and IncomeEligibility2 fields are used to define an economically disadvantaged student. A student is defined as economically disadvantaged if the school submits a 1/yes for either the IncomeEligibility1 or IncomeEligibility2 field.
+

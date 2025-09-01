@@ -1,0 +1,53 @@
+﻿LEA letter Grades and A-F Letter Grade Calculation
+### Calculating Final A-F Letter Grade Score
+
+This text appears to be a footer from a document, indicating a section related to calculating final letter grades from A to F.
+
+
+
+## Calculating LEA Letter Grades
+
+For school year 2024-2025 LEAs will also receive a letter grade. LEAs with only one school will receive the grade of that school.
+
+## Calculation
+
+The figure presents a mathematical formula for calculating the `lea_gpa`. The formula is expressed as:
+
+$$
+lea\_gpa = \left( \frac{(n\_A\_schools \times 4) + (n\_B\_schools \times 3) + (n\_C\_schools \times 2) + (n\_D\_schools \times 1)}{n\_schools} \right)
+$$
+
+- **Variables**:
+  - `n_A_schools`: Number of schools with an A grade.
+  - `n_B_schools`: Number of schools with a B grade.
+  - `n_C_schools`: Number of schools with a C grade.
+  - `n_D_schools`: Number of schools with a D grade.
+  - `n_schools`: Total number of schools.
+
+- **Operation**:
+  - Each category of schools (A, B, C, D) is multiplied by a weight (4, 3, 2, 1 respectively).
+  - The sum of these products is divided by the total number of schools (`n_schools`) to calculate the `lea_gpa`.
+
+## Instructions
+
+Round the lea_gpa to the nearest whole number, and convert to a letter grade using the scale below:
+
+- 4 = A
+- 3 = B
+- 2 = C
+- 1 = D
+- 0 = F
+
+## Variables
+
+- **lea_gpa**: the average points earned for school letter grades
+- **n_A_schools**: the number of A schools in the LEA
+- **n_B_schools**: the number of B schools in the LEA
+- **n_C_schools**: the number of C schools in the LEA
+- **n_D_schools**: the number of D schools in the LEA
+- **n_schools**: the number of schools in the LEA
+
+### Calculating Final A-F Letter Grade Score
+
+This text appears to be a footer from a document, indicating a focus on calculating final letter grades from A to F.
+

@@ -1,0 +1,144 @@
+﻿## Graduation Indicator
+
+### Possible Score
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Possible Score</th>
+  </tr>
+  <tr>
+    <td>K-8</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>9-12</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Alternative 9-12</td>
+    <td>10</td>
+  </tr>
+</table>
+
+### Updates for Fiscal Year 2025
+
+- Traditional 9-12 schools not earning at least 10 points in the 4/5/6/7-year graduation rate component will have points prorated.
+- Clarified intent for students with disabilities needing >4 years of services.
+
+### Description
+
+- **Symbol:** A circular arrow inside a circle indicates rotation/recycling.
+- **Graduation Image:** The word "GRADUATION" in bold, uppercase letters on a red background.
+
+### Component Intent
+
+- **Traditional Schools:** Hold schools accountable across multiple cohorts without penalizing for appropriate IEPs; contact ADE if data issues arise.
+- **Alternative Schools:** Focus on student progression across cohorts.
+
+### Component Details
+
+- Minimum of 10 students per 4-year cohort is required.
+- Graduation rate data is finalized with a one-year lag.
+- **Traditional 9-12:** Cohorts are weighted with highest emphasis on the 4-year rate (capped at 10 points). Points for graduation rate and improvement are considered separately.
+- **Alternative 9-12:** Schools earn points for the best graduation rate among 4-, 5-, 6-, or 7-year rates.
+
+**Table Representation (Example):**
+
+<table>
+  <tr>
+    <th>Graduation Rate Type</th>
+    <th>Cohort</th>
+    <th>Weight</th>
+  </tr>
+  <tr>
+    <td>4-year</td>
+    <td>2024</td>
+    <td>5.0%</td>
+  </tr>
+</table>
+
+### Graduation Rate Calculation
+
+**Inclusion Criteria:** Students in the given cohort.
+
+**Variables:**
+- **grad_rt:** Graduation rate for a cohort.
+- **grads:** Number of graduates (year-end codes: G, W7, S7).
+- **non_grads:** All others (excluding specific exit codes).
+
+**Graduation Rate Formula:**
+
+$$
+grad\_rt = 100 \left( \frac{grads}{grads + non\_grads} \right)
+$$
+
+### Graduation Rate Component
+
+**Traditional 9-12 (0-10 points):**
+- Includes cohorts 2021–2024 (both FAY and non-FAY; minimum n-count of 10).
+- **Key-Value Formula:**
+
+$$
+grad\_rt\_pts\_{trad} = 0.05 \times (cohort\_2024\_grad\_rt4) + 0.04 \times (cohort\_2023\_grad\_rt5) + 0.025 \times (cohort\_2022\_grad\_rt6) + 0.005 \times (cohort\_2021\_grad\_rt7)
+$$
+
+**Alternative 9-12 (0-10 points):**
+- Uses the best graduation rate among the types.
+- **Formula:**
+
+$$
+grad\_rt\_pts\_{alt} = 0.1 \times (max\_grad\_rt\_type)
+$$
+
+### Graduation Improvement Component (Traditional 9-12 only)
+
+**Intent:**  
+Encourage increases in the 4-year graduation rate for cohort 2024 compared to 2023 or maintain ≥90%.
+
+**Points Table:**
+
+<table>
+  <tr>
+    <th>The cohort 2024 4-year graduation rate is…</th>
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>90% or higher</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Greater than cohort 2023 rate + 2</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Equal to cohort 2023 rate ± 2</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Less than cohort 2023 rate - 2</td>
+    <td>0</td>
+  </tr>
+</table>
+
+### Final Graduation Indicator Points
+
+**Traditional 9-12 (0-20 points):**
+
+$$
+grad\_indicator\_pts = grad\_rt\_pts\_{trad} + grad\_rt\_imp\_pts
+$$
+
+**Alternative 9-12 (0-10 points):**
+
+$$
+grad\_indicator\_pts = \frac{grad\_rt\_pts}{all}
+$$
+
+**Variables:**
+- **grad_indicator_pts:** Final graduation indicator points.
+- **grad_rt_pts_trad:** Points from graduation rate (Traditional 9-12).
+- **grad_rt_pts_alt:** Points from graduation rate (Alternative 9-12).
+- **grad_rt_imp_pts:** Points from graduation improvement (Traditional 9-12 only).
+
+

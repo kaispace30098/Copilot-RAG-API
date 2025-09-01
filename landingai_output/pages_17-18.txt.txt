@@ -1,0 +1,75 @@
+﻿## FAY (Full Academic Year) - Definitions
+
+- **FAY**
+  - Students with breaks in enrollment fewer than 10 calendar days in the same school are still considered FAY.
+  - **For traditional schools**, students enrolled within the first ten school days of the school's calendar year and continuously enrolled until the first weekday in May (May 1, 2025).
+  - **For alternative schools**, students enrolled on October 1, 2024, and continuously enrolled until the first weekday in May (May 1, 2025).
+  - **For Arizona Online Instruction schools(AOI)**, students who log enough minutes at the AOI (AOI is referred to Arizona Online Instructions!) by May 2nd. Students must also have been continuously enrolled to May 1st, 2025, without gaps of enrollment larger than 10 consecutive days. To be considered AOI FAY, students must meet the minimum minutes required for their grade.
+
+### Table of Required Minutes by Grade
+
+<table>
+  <tr>
+    <th>Grade</th>
+    <th>Required Minutes</th>
+  </tr>
+  <tr>
+    <td>Kindergarten</td>
+    <td>16,020</td>
+  </tr>
+  <tr>
+    <td>1-3</td>
+    <td>32,040</td>
+  </tr>
+  <tr>
+    <td>4-6</td>
+    <td>40,050</td>
+  </tr>
+  <tr>
+    <td>7-8</td>
+    <td>48,060</td>
+  </tr>
+  <tr>
+    <td>9-12</td>
+    <td>40,500</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>FAY Starting Point</th>
+    <th>FAY Ending Date</th>
+  </tr>
+  <tr>
+    <td>Traditional Schools</td>
+    <td>within the first ten school days</td>
+    <td>first weekday in May (May 1, 2025)</td>
+  </tr>
+  <tr>
+    <td>Alternative 9-12 Schools</td>
+    <td>on Oct. 1, 2024</td>
+    <td>first weekday in May (May 1, 2025)</td>
+  </tr>
+  <tr>
+    <td>AOI Schools</td>
+    <td>N/A</td>
+    <td>Meet required minutes by May 2, 2025 (see table above)</td>
+  </tr>
+</table>
+
+The table outlines the starting and ending points for the FAY criteria across different school models, with specific dates and conditions for each type.
+
+* To meet FAY requirements, AOI students must also have been continuously enrolled to May, 1st, 2025 without gaps of enrollment larger than 10 consecutive days.
+
+- **2-year FAY** – Students who are FAY two consecutive years in a row (school year 2023-2024, school year 2024-2025) at the same school. 2-year FAY students are not included in 1-year FAY stability calculations.
+
+## 3-year FAY
+
+- **Definition**: Students who are FAY (Full Academic Year) for three consecutive years in a row (school year 2022-2023, school year 2023-2024, school year 2024-2025) at the same school.
+- **Note**: 3-year FAY students are not included in 2-year FAY and 1-year FAY stability calculations.
+
+## EL FAY
+
+- Students were included in the EL calculations if they were enrolled within the first ten school days of the school's calendar year and continuously enrolled until the first day of the state testing window for AZELLA, January 29, 2025. Students with breaks in enrollment fewer than 10 calendar days in the same school are still considered EL FAY.

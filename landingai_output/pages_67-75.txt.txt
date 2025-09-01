@@ -1,0 +1,58 @@
+﻿Bonus Points Overview
+Possible Bonus Points by Model
+K-8: Total possible bonus points = 5 (Special Education: 2, Science Proficiency: 3)
+9-12: Total possible bonus points = 9 (Special Education: 2, Science Proficiency: 3, CCRI: 1, ACT Aspire: 3)
+Alternative 9-12: Total possible bonus points = 9 (ACT Aspire: 3, Subgroup Grad Rate: 6)
+Updates for Fiscal Year 2024-2025
+Science proficiency calculations exclude RAEL students.
+Students with valid 8th grade MSAA are removed from ACT Aspire participation calculations.
+Special Education Enrollment Bonus
+Eligibility: Schools with at least 10 special education students on October 1, 2024.
+Calculation:
+pct_sped_enroll
+=
+100
+(
+oct_1_sped_enrollment/
+n_fay_students
+)
+
+Points: <table> <tr> <th>School Percentage of Statewide Percentage</th> <th>K-8 Statewide (2024)</th> <th>9-12 Statewide (2024)</th> <th>Bonus Points</th> </tr> <tr> <td>80% or more</td> <td>11.39%</td> <td>9.05%</td> <td>2</td> </tr> <tr> <td>70%-79%</td> <td>9.97%</td> <td>7.92%</td> <td>1.5</td> </tr> <tr> <td>60%-69%</td> <td>8.55%</td> <td>6.78%</td> <td>1</td> </tr> <tr> <td>Below 60%</td> <td>8.54%</td> <td>6.77%</td> <td>0</td> </tr> </table>
+Science Proficiency Bonus
+Eligibility: Schools administering AzSCI/MSAA to 95% of Grade 5, Grade 8, and cohort 2026 students.
+Calculation:
+sci_pct_prof
+=
+100
+(
+n_fay_sci_P_HP/
+n_fay_tested_sci
+)
+
+Points: <table> <tr> <th>School Percentage of Statewide Average</th> <th>Bonus Points</th> </tr> <tr> <td>1 SD or more above statewide average</td> <td>3</td> </tr> <tr> <td>Greater than statewide average, less than 1 SD above</td> <td>1.5</td> </tr> <tr> <td>Less than or equal to statewide average</td> <td>0</td> </tr> </table>
+ACT Aspire Participation Bonus
+Eligibility: Traditional 9-12 and Alternative 9-12 schools administering ACT Aspire to cohort 2027 students.
+Calculation:
+pct_aspire_tested
+=
+100
+(
+n_cohort_tested_ELA_math/
+cohort_enrolled_day1
+)
+
+Points:
+95% or more participation: 3 points
+90%-94% participation: 1.5 points
+Below 90% participation: 0 points
+CCRI: Military/Post-Secondary Enrollment Bonus
+Eligibility: Traditional 9-12 schools only.
+Criteria:
+Increase in post-secondary/military enrollment for cohort 2025 compared to cohort 2024.
+85% or more of cohort 2025 enrolled/enlisted.
+Points: 1 point
+Subgroup 5-year Graduation Rate Bonus
+Eligibility: Alternative 9-12 schools only.
+Subgroups: McKinney-Vento/Homeless, Foster Care, Special Education.
+Criteria: Graduation rate meets or exceeds 80% of statewide average for each subgroup.
+Points: 2 points per subgroup (up to 6 points total).

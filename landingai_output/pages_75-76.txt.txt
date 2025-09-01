@@ -1,0 +1,82 @@
+﻿
+**Details**
+
+- Bonus points are added after the percentage of points earned in all other indicators is calculated to a 100-point scale. This approach makes the value of bonus points equivalent across all schools on a given A-F model.
+
+## Eligibility Criteria
+
+- Small schools with fewer than 10 FAY students will receive a designation of Not Rated.
+- A school with a new entity ID whose first year in operation is the 2024-2025 school year will not receive an A-F letter grade score.
+- In order to receive an A-F letter grade score, schools must be eligible for the minimum point threshold corresponding to their A-F model in the table below. Schools that do not meet the eligibility threshold will receive a designation of Not Rated (NR).
+
+### Table Representation
+
+The table below outlines the minimum eligible points required for different educational models:
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Minimum Eligible Points</th>
+  </tr>
+  <tr>
+    <td>K-8</td>
+    <td>80</td>
+  </tr>
+  <tr>
+    <td>9-12</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Alternative 9-12</td>
+    <td>60</td>
+  </tr>
+</table>
+
+## Calculations
+
+### K-8 Schools
+
+- $k8\_score = 100 \left( \frac{proficiency + growth + el + accel\_ready}{sum\_eligible\_points} \right) + bonus\_points$
+
+### 9-12 Schools
+
+- $9\_12\_score = 100 \left( \frac{proficiency + growth  + el + grad + ccri}{sum\_eligible\_points} \right) + bonus\_points$
+
+### Alternative 9-12 Schools
+
+- $alt\_score = 100 \left( \frac{proficiency + gtg + el + grad + ccri}{sum\_eligible\_points} \right) + bonus\_points$
+
+## Calculating Final A-F Letter Grade Score
+### Non-Typical Schools
+
+The formula for calculating the non-typical score is given by:
+
+$$
+non\_typical\_score = 100 \left[ \left( \frac{k8\_pct \times k8\_pts+}{912\_pct \times 912\_pts+} \right) \left( \frac{k8\_pct \times k8\_pts\_eligible+}{912\_pct \times 912\_pts\_eligible} \right) \right] + \left( \frac{k8\_pct \times k8\_bonus+}{912\_pct \times 912\_bonus} \right)
+$$
+
+## Variables
+
+- **k8_score**: K-8 school’s total A-F Letter Grade Score
+- **9_12_score**: Traditional 9-12 school’s total A-F Letter Grade Score
+- **alt_score**: Alternative 9-12 school’s total A-F Letter Grade Score
+- **proficiency**: Proficiency Indicator score
+- **growth**: Growth Indicator score
+- **el**: EL Indicator score
+- **accel_ready**: Acceleration/Readiness Indicator score
+- **sg_improve**: Subgroup Improvement Indicator score
+- **grad**: Graduation Rate Indicator score
+- **ccr**: College and Career Readiness Indicator score
+- **gtg**: Growth to Graduation Indicator score
+- **sum_eligible_points**: The total number of points for which a school is eligible, according to the model weights. [See table here](#)
+- **k8_pct**: The percentage of the school’s students enrolled in grades K-8
+- **912_pct**: The percentage of the school’s students enrolled in grades 9-12
+- **k8_pts**: The points the non-typical school earned according to the K-8 model
+- **912_pts**: The points the non-typical school earned according to the 9-12 model
+- **k8_pts_eligible**: The number of K-8 points for which the school was eligible
+- **912_pts_eligible**: The number of 9-12 points for which the school was eligible
+- **k8_bonus**: The number of K-8 bonus points the school earned
+- **912_bonus**: The number of 9-12 bonus points the school earned
+
+### Calculating Final A-F Letter Grade Score
+

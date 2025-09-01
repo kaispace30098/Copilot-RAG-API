@@ -1,0 +1,5 @@
+## Homeless
+
+- Student data submitted via AzEDS in the Homeless field.
+- **Homeless** - Any student who was identified as homeless during the current year.
+- **Homeless Cohort** – Any student who was identified as homeless during high school.

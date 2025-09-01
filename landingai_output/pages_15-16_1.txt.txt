@@ -1,0 +1,6 @@
+## Chronic Absenteeism
+
+- **Chronically Absent** – A student is chronically absent if that student has absences (excused and unexcused) 10% or more of a school’s calendar year (e.g., 18 days for a school meeting 5 days per week, 14.4 days for a school meeting 4 days a week). Schools can validate how many absences a student has using the STUD10 report in the AzEDS portal on ADEConnect. Additional information on what defines an absence can be found here: [https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/15/00901.htm](https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/15/00901.htm). Students who are enrolled in Kindergarten or are flagged as chronically ill in AzEDS are removed from the Chronic Absenteeism calculation.
+
+- **AOI Chronically Absent(Arizona Online Instruction schools)** – AOIs(Arizona Online Instruction schools) take attendance by logging minutes of activity. For each AOI student a number of required instructional minutes is calculated based on AZ 15-808 (F), and the proportion of the school year each student attends an AOI school. Students that are missing more than 10% of the required instructional minutes are considered chronically absent.
+

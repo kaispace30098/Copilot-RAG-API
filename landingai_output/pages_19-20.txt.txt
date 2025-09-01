@@ -1,0 +1,260 @@
+﻿
+The table below describes the grade-level and FAY requirements for each indicator of the A-F Letter Grade Accountability System. **Please keep in mind that FAY for Traditional, Alternative, and AOI schools is slightly different.**
+
+### Table of Educational Indicators
+
+This table provides a detailed overview of various educational indicators, components, and their applicability across different grade levels and models. The table is structured with the following columns: Indicator, Component, FAY (Full Academic Year), Grades, K-8 Model, 9-12 Model, and Alt Model.
+
+<table>
+  <tr>
+    <th>Indicator</th>
+    <th>Component</th>
+    <th>FAY</th>
+    <th>Grades</th>
+    <th>K-8 Model</th>
+    <th>9-12 Model</th>
+    <th>Alt Model</th>
+  </tr>
+  <tr>
+    <td rowspan="3">Proficiency</td>
+    <td>AASA ELA and Math</td>
+    <td>[x]</td>
+    <td>3-8</td>
+    <td>[x]</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+  </tr>
+  <tr>
+    <td>ACT ELA and Math</td>
+    <td>[x]</td>
+    <td>11*</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+  </tr>
+  <tr>
+    <td>MSAA ELA and Math</td>
+    <td>[x]</td>
+    <td>3-8, 11*</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Growth<sup>1</sup></td>
+    <td>AASA ELA and Math Student Growth Percentiles (SGP)</td>
+    <td>[x]</td>
+    <td>4-8</td>
+    <td>[x]</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+  </tr>
+  <tr>
+    <td rowspan="1">EL</td>
+    <td>EL Proficiency and Growth</td>
+    <td>[x]</td>
+    <td>K-12</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Acceleration/Readiness(AR)</td>
+    <td>Grade 8 Math</td>
+    <td>[ ]</td>
+    <td>8</td>
+    <td>[x]</td>
+    <td>[ ]</td>
+    <td>[ ]</td>
+  </tr>
+  <tr>
+    <td>Grade 3 ELA</td>
+    <td>[ ]</td>
+    <td>3</td>
+    <td>[x]</td>
+    <td>[ ]</td>
+    <td>[ ]</td>
+  </tr>
+  <tr>
+    <td>Chronic Absenteeism</td>
+    <td>[ ]</td>
+    <td>1-8</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+  </tr>
+  <tr>
+    <td>Subgroup Improvement</td>
+    <td>[ ]</td>
+    <td>3-8</td>
+    <td>[x]</td>
+    <td>[ ]</td>
+    <td>[ ]</td>
+  </tr>
+  <tr>
+    <td>Special Education Inclusion</td>
+    <td>[ ]</td>
+    <td>K-8</td>
+    <td>[x]</td>
+    <td>[ ]</td>
+    <td>[ ]</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Graduation Rate</td>
+    <td>4-year Graduation rate</td>
+    <td>[ ]</td>
+    <td>Cohort 2024</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+  </tr>
+  <tr>
+    <td>5-year Graduation rate</td>
+    <td>[ ]</td>
+    <td>Cohort 2023</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+  </tr>
+  <tr>
+    <td>6-year Graduation rate</td>
+    <td>[ ]</td>
+    <td>Cohort 2022</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+  </tr>
+  <tr>
+    <td>7-year Graduation rate</td>
+    <td>[ ]</td>
+    <td>Cohort 2021</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Growth to Graduation</td>
+    <td>Academic Persistence</td>
+    <td>[ ]</td>
+    <td>9-12</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[ ]</td>
+  </tr>
+  <tr>
+    <td>Credit Earned</td>
+    <td>[ ]</td>
+    <td>9-12</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[ ]</td>
+  </tr>
+  <tr>
+    <td>On-Track to Graduate</td>
+    <td>[ ]</td>
+    <td>10-12</td>
+    <td>[ ]</td>
+    <td>[x]</td>
+    <td>[ ]</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Indicator</th>
+    <th>Component</th>
+    <th>FAY</th>
+    <th>Grades</th>
+    <th>K-8 Model</th>
+    <th>9-12 Model</th>
+    <th>Alt Model</th>
+  </tr>
+  <tr>
+    <td rowspan="2">CCRI</td>
+    <td>College and Career Readiness Self-Report</td>
+    <td>**</td>
+    <td>Cohort 2025<br>Alt on-track to grad<sup>2</sup></td>
+    <td></td>
+    <td>[x]</td>
+    <td>[x]</td>
+  </tr>
+  <tr>
+    <td>Bonus</td>
+    <td>AzSCI and MSAA Science Proficiency</td>
+    <td>[x]</td>
+    <td>5, 8, 11</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Special Education Enrollment</td>
+    <td>[x]</td>
+    <td>K-12</td>
+    <td>[x]</td>
+    <td>[x]</td>
+    <td>[x]</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Post-secondary/military enrollment</td>
+    <td></td>
+    <td>Cohort 2025</td>
+    <td></td>
+    <td>[x]</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>ACT Aspire Participation</td>
+    <td></td>
+    <td>Cohort 2027, typically grade 9</td>
+    <td>[x]</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Subgroup Graduation</td>
+    <td></td>
+    <td>Cohort 2023</td>
+    <td></td>
+    <td>[x]</td>
+    <td></td>
+  </tr>
+</table>
+
+### Notes
+
+Regardless of a student’s special education status, the accountability system uses all verified ACT and AASA data from students enrolled the full academic year. For students who take the MSAA assessment and are enrolled the full academic year, these data are used in the Proficiency component but not in the calculation of student growth percentiles or student growth targets (Growth).
+
+Students with a performance level reported from the ACT or AASA English Language Arts and Mathematics assessments, MSAA, and AzSCI, are utilized in certain calculations (detailed below). The department does not include ACT, AASA, MSAA, or AzSCI records for students where no answer items are selected and no scale score or performance level is assigned. The following table indicates the only valid performance levels on ACT, AASA or MSAA at all grade levels and for all subjects.
+
+## AASA, ACT, AzSci, MSAA Achievement Levels
+
+<table>
+  <tr>
+    <th>Achievement Level</th>
+    <th>Proficiency</th>
+  </tr>
+  <tr>
+    <td>Minimally Proficient</td>
+    <td>(1)</td>
+  </tr>
+  <tr>
+    <td>Partially Proficient</td>
+    <td>(2)</td>
+  </tr>
+  <tr>
+    <td>Proficient</td>
+    <td>(3)</td>
+  </tr>
+  <tr>
+    <td>Highly Proficient</td>
+    <td>(4)</td>
+  </tr>
+</table>
+
+For Alternative Schools, CCRI includes On-Track to Graduate Students and All Current Year Graduates.
+

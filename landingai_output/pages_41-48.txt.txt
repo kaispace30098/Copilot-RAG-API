@@ -1,0 +1,135 @@
+﻿Chronic Absenteeism School Percentage Calculation:
+### Acceleration/Readiness Indicator (AR Indicator) Components
+
+#### Possible Score (K-8)
+<table>
+<tr><th>Component</th><th>Points</th></tr>
+<tr><td>Grade 8 Math Performance</td><td>5</td></tr>
+<tr><td>Grade 3 ELA Minimally Proficient</td><td>5</td></tr>
+<tr><td>Chronic Absenteeism</td><td>2*</td></tr>
+<tr><td>Subgroup Improvement</td><td>6**</td></tr>
+<tr><td>Special Education Inclusion</td><td>2</td></tr>
+<tr><td><b>Total Possible Score</b></td><td><b>10***</b></td></tr>
+</table>
+
+- *Non-FAY students included in Chronic Absenteeism calculations.*  
+- **Subgroup improvement requires n-count of 10 in both 2024-24 & 2023-23 (2 pts per subgroup, max 6 pts).**  
+- ***Scores capped at 10.***  
+
+#### Updates for FY 2024-24
+- Math test records for RAEL students are excluded from subgroup proficiency calculations.
+
+---
+
+### Grade 8 Math Performance Component
+
+#### Intent & Details
+- Measures schools' success in preparing students for high school math.
+- Incentivizes increasing **highly proficient** students & reducing **minimally proficient** students.
+
+#### Calculation & Criteria
+- **Inclusion:** FAY students taking Grade 8 AASA/MSAA Math in FY 2024 & 2025.
+- **RAEL students excluded.**
+
+**Formulas:**
+\[
+pct\_gr\_8\_hp = 100 \left( \frac{gr\_8\_stu\_hp}{total\_gr\_8\_stu} \right)
+\]
+\[
+pct\_gr\_8\_mp = 100 \left( \frac{gr\_8\_stu\_mp}{total\_gr\_8\_stu} \right)
+\]
+
+#### Final Points (0, 2.5, or 5 points)
+- **Highly Proficient:**  
+  - 2.5 pts if **≥60% HP** OR **maintains/increases HP from FY 2024 to FY 2025.**
+- **Minimally Proficient:**  
+  - 2.5 pts if **≤10% MP** OR **maintains/decreases MP from FY 2024 to FY 2025.**
+
+---
+
+### Grade 3 ELA Minimally Proficient Component
+
+#### Intent & Details
+- Rewards schools for reducing Grade 3 **minimally proficient** students.
+
+#### Calculation & Criteria
+- **Inclusion:** Grade 3 FAY students with AASA/MSAA ELA scores in FY 2024 & 2025.
+- **RAEL students excluded.**
+
+**Formula:**
+\[
+pct\_gr\_3\_mp = 100 \left( \frac{gr\_3\_stu\_mp}{total\_gr\_3\_stu} \right)
+\]
+
+#### Final Points (0 or 5 points)
+- **5 pts if:**  
+  - **≤12% MP** OR  
+  - **Maintains/decreases MP from FY 2024 to FY 2025.**
+
+---
+
+### Chronic Absenteeism Reduction Component
+
+#### Intent & Details
+- Aims to **reduce** students absent >10% of the school year.
+- **Arizona Online Instruction (AOI) Adjustments:**  
+  - Uses **attendance minutes** instead of days.  
+  - Chronic absenteeism if:  
+    \[
+    \frac{\text{Attendance Minutes}}{\text{Required Minutes}} < 90\%
+    \]  
+  - Attendance minutes calculated based on [A.R.S. § 15-808](https://www.azleg.gov/ars/15/00808.htm).
+
+
+Inclusion Criteria:
+- Grades 1-8 in fiscal year 2025.
+- Grades 1-8 in fiscal year 2024 establish the baseline comparison.
+- Includes both FAY and non-FAY students.
+- Excludes students flagged as chronically ill in AzEDS.
+- Includes all absences reported, whether excused or unexcused.
+- AOI students must be Full-Time Equivalent (FTE 1.0).
+- Minimum N-Size of 10 students is required.
+
+Formula:
+\[
+pct\_chronic\_absent = 100 \left( \frac{n\_chronic\_absent}{total\_students} \right)
+\]
+
+Final Points for Chronic Absenteeism Reduction (0 or 2 points):
+- Schools earn 2 points if:
+  - Chronic Absenteeism is ≤ 4% in fiscal year 2025.
+  - Chronic Absenteeism percentage in fiscal year 2025 is the same or lower than in fiscal year 2024.
+
+K-8 Subgroup Improvement Component:
+
+Component Intent:
+- Measures annual improvement in proficiency points for subgroups on AASA/MSAA-ELA and math.
+
+Eligibility:
+- Each subgroup must have at least 10 FAY students in both fiscal years 2025 and 2024.
+- Maximum points capped at 6.
+
+Formula for Subgroup Proficiency Improvement:
+\[
+sg\_test\_change = 100 \left( \frac{[0.6 \times n\_fay\_PP\_cy + 1.0 \times n\_fay\_P\_cy + 1.3 \times n\_fay\_HP\_cy]}{n\_fay\_tested\_cy} - \frac{[0.6 \times n\_fay\_PP\_py + 1.0 \times n\_fay\_P\_py + 1.3 \times n\_fay\_HP\_py]}{n\_fay\_tested\_py} \right)
+\]
+
+Final Points for Subgroup Improvement (0, 2, 4, or 6 points):
+- Schools earn 2 points if the change in average proficiency points earned for the test is greater than 0.
+
+Special Education Inclusion Component:
+
+Component Intent:
+- Rewards schools with higher than state average special education students in general education classrooms (80% of the day or more).
+
+Inclusion Criteria:
+- K-8 students receiving special education services on October 1, 2024.
+- Must meet minimum n-size of 10 FAY students.
+
+Formula for Special Education Inclusion:
+\[
+\text{sch\_sped\_inclusion\_pct} = 100 \left( \frac{\text{oct\_1\_sped\_included}}{\text{n\_fay\_students}} \right)
+\]
+
+Final Points for Special Education Inclusion (0 or 2 points):
+- Schools earn 2 points if their percentage of K-8 students enrolled in special education services and participating in the general education classroom 80% or more of the day is higher than the state average.

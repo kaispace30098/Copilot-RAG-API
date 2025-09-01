@@ -1,0 +1,198 @@
+﻿
+## List of Acronyms and Abbreviations
+
+### Table of Acronyms and Abbreviations
+
+<table>
+  <tr>
+    <th>Acronym/Abbreviation</th>
+    <th>Meaning</th>
+  </tr>
+  <tr>
+    <td>AASA</td>
+    <td>Arizona’s Academic Standards Assessment</td>
+  </tr>
+  <tr>
+    <td>ACT</td>
+    <td>American College Test</td>
+  </tr>
+  <tr>
+    <td>ADM</td>
+    <td>Annual Daily Membership</td>
+  </tr>
+  <tr>
+    <td>AOI</td>
+    <td>Arizona Online Instruction</td>
+  </tr>
+  <tr>
+    <td>AzEDS</td>
+    <td>Arizona Education System</td>
+  </tr>
+  <tr>
+    <td>AZELLA</td>
+    <td>Arizona English Language Learner Assessment</td>
+  </tr>
+  <tr>
+    <td>Alt ELPA</td>
+    <td>Alternative English Language Proficiency Assessment</td>
+  </tr>
+  <tr>
+    <td>AzMerit/AzM2</td>
+    <td>Arizona’s Measurement of Education to Inform Teaching</td>
+  </tr>
+  <tr>
+    <td>AzSCI</td>
+    <td>Arizona Science Test</td>
+  </tr>
+  <tr>
+    <td>CCRI</td>
+    <td>College and Career Readiness Index</td>
+  </tr>
+  <tr>
+    <td>DRP</td>
+    <td>Dropout Recovery Program</td>
+  </tr>
+  <tr>
+    <td>EL</td>
+    <td>English Language</td>
+  </tr>
+  <tr>
+    <td>ELA</td>
+    <td>English Language Arts</td>
+  </tr>
+  <tr>
+    <td>FAY</td>
+    <td>Full Academic Year</td>
+  </tr>
+  <tr>
+    <td>FEP</td>
+    <td>Fluent English Proficient</td>
+  </tr>
+  <tr>
+    <td>HP</td>
+    <td>Highly Proficient on assessment</td>
+  </tr>
+  <tr>
+    <td>MP</td>
+    <td>Minimally Proficient on assessment</td>
+  </tr>
+  <tr>
+    <td>MSAA</td>
+    <td>Multi-State Alternate Assessment (Math, ELA)</td>
+  </tr>
+  <tr>
+    <td>MSAA Science</td>
+    <td>Multi-State Alternate Assessment Science Test</td>
+  </tr>
+  <tr>
+    <td>P</td>
+    <td>Proficient Proficient on assessment</td>
+  </tr>
+  <tr>
+    <td>PP</td>
+    <td>Partially Proficient on assessment</td>
+  </tr>
+  <tr>
+    <td>RAEL</td>
+    <td>Recently Arrived English Learner</td>
+  </tr>
+  <tr>
+    <td>SBE</td>
+    <td>State Board of Education</td>
+  </tr>
+  <tr>
+    <td>SGP</td>
+    <td>Student Growth Percentile</td>
+  </tr>
+  <tr>
+    <td>SGT</td>
+    <td>Student Growth Target</td>
+  </tr>
+  <tr>
+    <td>SPED</td>
+    <td>Special Education</td>
+  </tr>
+</table>
+
+
+## Certifications and Licenses
+
+- Adobe Certified Associate (ACA)
+- Amatrol
+- American Welding Society Certification (AWS)
+- APCO International- Public Safety Telecommunication Dispatcher
+- Apple Certified Pro (ACP) - Final Cut Pro
+- Approved Veterinary Assistant (AVA)
+- Arizona Aesthetician License
+- Arizona Agriculture Skills & Competencies Certificate
+- Arizona Center for Fire Service Excellence-Fire Fighter I and II
+- Arizona Cosmetology License
+- Arizona Department of Public Safety- Security Guard Certification
+- Arizona Landscape Contractor Association (ALCA)
+- ASE Student Certifications-G1, A1-A8, AST
+- ASE Student Certifications-Medium/Heavy Diesel (T2-T6)
+- ASE/I-Car Student Certifications-Paint and Refinishing, Non-Structural Repair, Mechanical and Electrical
+- Autodesk AutoCAD Certified User
+- Autodesk Certified User - 3ds Max; Maya
+- Beginning Jewelry Sales
+- Biotechnician Assistant Credential (BACE)
+- CAD-CAM
+- Certified Cardiographic Tech (CCT)
+- Certified Front Desk Representative
+- Certified Fundamentals Cook (CFC) and Pastry Cook (CFPC)
+- Certified Guest Service Professional (CGSP)
+- Certified Healthcare Documentation Specialist/ Transcriptionist (CHDS)
+- Certified Hospitality and Tourism Management Professional
+- Certified Internet Web (CIW) - JavaScript Specialist
+- Certified Nurse Assistant (CNA)
+- Certified Personal Trainer (CPT)
+- Certified Pharmacy Technician (CPhT)
+- Certified Phlebotomy Technician
+- Certified Physical Therapy Aide (CPTA)
+- Certified Restaurant Server
+- Certified EKG User
+- Child Development Associate Credential
+- Clinical Medical Assistant (CCMA)
+- CompTIA A+
+
+## Certifications and Licenses
+
+- CompTIA IT Fundamentals
+- CompTIA Network+
+- CompTIA Security+
+- CSX Cybersecurity Fundamentals Certificate
+- Emergency Medical Responder (EMR)
+- Emergency Medical Technician (EMT)
+- FAA Airframe Mechanic
+- FAA Ground Instruction; Instrument; Control Tower and Remote Pilot
+- FAA Powerplant Mechanic
+- FCC License
+- Licensed Massage Therapist (LMT)
+- Licensed Nurse Assistant (LNA)
+- Manufacturing Skill Standards Council (MSSC)
+- Master CAM
+- Mechatronics
+- Microsoft Office Specialist (MOS) credential
+- Microsoft Technology Associate (MTA)
+- NAFTrack Certification
+- National Institute for Metalworking Skills (NIMS)
+- National ProStart Certificate of Achievement (COA)
+- NCCER Cabinetmaking
+- NCCER Carpentry
+- NCCER Construction Technologies
+- NCCER Core
+- NCCER Heavy Equipment Operator
+- NCCER HVAC
+- NCCER Welding
+- Oracle Java certification-fundamentals
+- OSHA 10
+- Praxis ParaPro Certificate
+- PrintED/SkillsUSA Student Certification
+- Programmer I - JAVA basics
+- QuickBooks Certified User (QBCU)
+- Radiation Health and Safety (RHS) by Dental Assisting National Board
+- Registered Clinical Medical Assistant Specialist (RCMAS)
+- Registered Medical Assistant (RMA)
+- ServSafe Food Protection Manager
+- SolidWorks - Certified Solidworks Associate (CSWA), Certified Solidworks Professional (CSWP)
+- Wildland Firefighter

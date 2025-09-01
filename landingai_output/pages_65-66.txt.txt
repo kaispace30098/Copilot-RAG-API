@@ -1,0 +1,179 @@
+﻿
+### CCRI Points Description
+
+<table>
+  <tr>
+    <th>Pt. Color</th>
+    <th>Trad. CCRI Value</th>
+    <th>Alt. CCRI Value</th>
+    <th>CCRI Point</th>
+  </tr>
+  <tr>
+    <td>blue</td>
+    <td>1.25</td>
+    <td>1.25</td>
+    <td>Earns a Grand Canyon Diploma or International Baccalaureate Diploma</td>
+  </tr>
+  <tr>
+    <td>blue</td>
+    <td>0.5 per exam</td>
+    <td>0.5 per exam</td>
+    <td>AZ Proficient or higher on ACT ELA/Math (ELA 19-24, Math 19-24)</td>
+  </tr>
+  <tr>
+    <td>blue</td>
+    <td>0.5 per exam</td>
+    <td>0.5 per exam</td>
+    <td>AZ Highly Proficient on ACT (ELA ≥ 25, Math ≥ 25) or ACT Science ≥ 20<br>* Can earn points in both Proficient and Highly Proficient columns.</td>
+  </tr>
+  <tr>
+    <td>blue</td>
+    <td>0.5 per exam</td>
+    <td>0.5 per exam</td>
+    <td>Meets SAT English or Math cut score</td>
+  </tr>
+  <tr>
+    <td>blue</td>
+    <td>0.5 per exam</td>
+    <td>0.5 per exam</td>
+    <td>Meets cut score on any AP exam</td>
+  </tr>
+  <tr>
+    <td>blue</td>
+    <td>0.5 per course</td>
+    <td>0.5 per course</td>
+    <td>Passes a college 100-level course (English, math, science, social studies, or foreign language) for credit with an A, B, or C</td>
+  </tr>
+  <tr>
+    <td>blue</td>
+    <td>0.35 per exam</td>
+    <td>0.35 per exam</td>
+    <td>Meets cut score on ACCUPLACER, ALEKS, COMPASS, EdReady, or Cambridge IGCSE exam</td>
+  </tr>
+  <tr>
+    <td>blue</td>
+    <td>0.5 per exam</td>
+    <td>0.5 per exam</td>
+    <td>Meets cut score on CLEP, Cambridge A/AS, or IB exam</td>
+  </tr>
+  <tr>
+    <td>blue</td>
+    <td>1</td>
+    <td>1</td>
+    <td>Meets all 16 Arizona Board of Regents program of study requirements with an A, B, or C in each</td>
+  </tr>
+  <tr>
+    <td>blue or red</td>
+    <td>0.5 per seal</td>
+    <td></td>
+    <td>Arizona diploma seals (capped at 1 point)</td>
+  </tr>
+  <tr>
+    <td>blue or red</td>
+    <td>0.5</td>
+    <td>0.5</td>
+    <td>Completes the FAFSA</td>
+  </tr>
+  <tr>
+    <td>red</td>
+    <td>1.25</td>
+    <td>1.25</td>
+    <td>Completes a CTE sequence and passes the Arizona Technical Skills Assessment</td>
+  </tr>
+  <tr>
+    <td>red</td>
+    <td>0.5 per course</td>
+    <td>0.5 per course</td>
+    <td>Passes a college 100-level career pathway (CTE) course for credit with an A, B, or C</td>
+  </tr>
+  <tr>
+    <td>red</td>
+    <td>0.25 per course</td>
+    <td>0.25 per course</td>
+    <td>Completes a CTE course with an A, B, or C (outside of sequence)</td>
+  </tr>
+  <tr>
+    <td>red</td>
+    <td>0.5</td>
+    <td>0.5</td>
+    <td>Meets benchmarks for ASVAB</td>
+  </tr>
+  <tr>
+    <td>red</td>
+    <td>0.5</td>
+    <td>0.5</td>
+    <td>Meets benchmarks for ACT WorkKeys or Arizona Career Readiness Credentials</td>
+  </tr>
+  <tr>
+    <td>red</td>
+    <td>0.5 per credential</td>
+    <td>0.5 per credential</td>
+    <td>Earns an Industry-Recognized Credential, Certificate, or License (capped at 1 point)</td>
+  </tr>
+  <tr>
+    <td>red</td>
+    <td>1</td>
+    <td>1</td>
+    <td>Completes a well-defined Work-Based Learning (internship) of at least 120 hours</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>0.25 per exam</td>
+    <td></td>
+    <td>ACT – partially proficient on ELA or Math (ELA 15-18, Math 16-18)</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>0.25 per sub-test</td>
+    <td></td>
+    <td>Valid Vendor Assessment aligned with college and career readiness</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>0.5 per course</td>
+    <td></td>
+    <td>Second Language – credit earned in a second/dual language course (excluding English)</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>0.5 per course</td>
+    <td></td>
+    <td>Work Study – verified by W2/pay stubs and supervisor evaluation</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>0.5 per course</td>
+    <td></td>
+    <td>Workplace Readiness – credit earned in a course that prepares students for employment</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>0.5 per course</td>
+    <td></td>
+    <td>Career Readiness – credit earned in a course that prepares students for a specific vocation</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>0.5 per course</td>
+    <td></td>
+    <td>Service Learning – credit earned in a course involving learning and community action</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>1</td>
+    <td></td>
+    <td>Military Enlistment – verified by official documentation</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>0.5 per course</td>
+    <td></td>
+    <td>Recipient of Competitive Scholarship (min. $500 award)</td>
+  </tr>
+  <tr>
+    <td>n/a</td>
+    <td>1</td>
+    <td></td>
+    <td>Post-Secondary Enrollment – enrollment in a post-secondary institution</td>
+  </tr>
+</table>

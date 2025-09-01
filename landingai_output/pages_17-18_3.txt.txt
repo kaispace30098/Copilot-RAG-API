@@ -1,0 +1,4 @@
+
+## Integrity
+
+- Students who do not meet key integrity rules related to accountability and membership will not be included in calculations. The ‘ADM_Integrity’ column in the Static File shows a 1 for students who have met integrity. Integrity errors can be reviewed in ADEConnect.

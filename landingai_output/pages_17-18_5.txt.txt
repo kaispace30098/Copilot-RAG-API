@@ -1,0 +1,3 @@
+## N-Size
+
+- The minimum number of students required for the indicator to be calculated, making the school eligible to earn the points. The N-Size for all indicators is 10 students.

@@ -1,0 +1,250 @@
+﻿## EL Indicator
+
+### Possible Score
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Possible EL Proficiency</th>
+    <th>Possible EL Growth</th>
+    <th>Possible Score</th>
+  </tr>
+  <tr>
+    <td>K-8</td>
+    <td>5</td>
+    <td>+</td>
+    <td>5</td>
+    <td>=</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>9-12</td>
+    <td>5</td>
+    <td>+</td>
+    <td>5</td>
+    <td>=</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Alternative 9-12</td>
+    <td>5</td>
+    <td>+</td>
+    <td>5</td>
+    <td>=</td>
+    <td>10</td>
+  </tr>
+</table>
+
+### Indicator Details
+
+**Normalizing EL Data:**  
+- Final EL points (Proficiency & Growth) are calculated relative to the statewide average.  
+- Because the distribution is right-skewed, outliers (points >1.5×IQR from Q1 or Q3) are removed for a more representative mean and SD.  
+- Schools must qualify for both EL Proficiency and EL Growth to earn points.
+
+**Image Description:**  
+- A circle with two clockwise arrows (Copyleft symbol) represents a continuous cycle.
+
+**Updates for 2024-2025:**  
+- EL Proficiency and Growth calculations include AltELPA results.  
+- Changes to EL FAY dates (see FAY in Key Terms).
+
+### EL Proficiency Component
+
+**Intent:**  
+Award points for EL students demonstrating proficiency on AZELLA/AltELPA.  
+*Requirement:* Minimum 10 EL FAY students.
+
+**Calculation, EL Proficiency (0–5 points):**
+
+**Inclusion Criteria:**  
+- EL FAY students with an EL need (e.g., below proficient on current or prior AZELLA/AltELPA) in grades K–12.
+
+**EL School % Proficient Calculation:**
+
+$$
+el\_sch\_pct\_prof = 100 \left[ \frac{n\_el\_proficient}{n\_el\_tested\_cy} \right]
+$$
+
+- **Variables:**  
+  - **n_el_proficient:** Number of EL FAY students scoring proficient.  
+  - **n_el_tested_cy:** Number of EL FAY students tested in the current year.
+
+**EL Proficiency Statewide Average:**
+
+$$
+\text{avg\_el\_prof\_az} = \left[ \frac{\text{sum\_el\_sch\_pct\_prof}}{\text{n\_el\_eligible\_schools}} \right]
+$$
+
+- **Variables:**  
+  - **sum_el_sch_pct_prof:** Sum of schools’ EL % proficient (for those meeting the EL FAY n-count).  
+  - **n_el_eligible_schools:** Number of eligible schools.
+
+**School's EL % Proficiency Points Table:**
+
+<table>
+  <tr>
+    <th>The school's EL % Proficiency is...</th>
+    <th>K-8 Statewide Range</th>
+    <th>9-12 & Alt Statewide Range</th>
+    <th>Pts</th>
+  </tr>
+  <tr>
+    <td>≥ statewide average</td>
+    <td>2023-2024: ≥ 12.76<br>2024-2025: Expected in Sept.</td>
+    <td>2023-2024: ≥ 21.28<br>2024-2025: Expected in Sept.</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>0.01 to 0.50 sd below</td>
+    <td>8.96–12.75<br>2024-2025: Expected in Sept.</td>
+    <td>15.94–21.27<br>2024-2025: Expected in Sept.</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>0.51 to 1.00 sd below</td>
+    <td>5.16–8.95<br>2024-2025: Expected in Sept.</td>
+    <td>10.61–15.93<br>2024-2025: Expected in Sept.</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>1.01 to 2.00 sd below</td>
+    <td>0.01–5.15<br>2024-2025: Expected in Sept.</td>
+    <td>0.01–10.60<br>2024-2025: Expected in Sept.</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>2.01 to 3.00 sd below</td>
+    <td>N/A<br>2024-2025: Expected in Sept.</td>
+    <td>N/A<br>2024-2025: Expected in Sept.</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>0%, no reclassification</td>
+    <td>0%</td>
+    <td>0%</td>
+    <td>0</td>
+  </tr>
+</table>
+
+### EL Growth Component
+
+**Intent:**  
+Award points for EL students who improve their AZELLA/AltELPA performance levels.
+
+**Component Details:**  
+- Minimum 10 EL FAY students with a current AZELLA/AltELPA record in the reassessment window and a prior record (from school year 2023-2024 or before the cutoff).  
+- Growth is calculated only if both test records are from the same family.  
+- 1 point is awarded per proficiency level increase.
+
+**EL Proficiency Levels:**  
+- **AZELLA:** Pre-Emergent/Emergent, Basic, Intermediate, Proficient  
+- **KG Placement:** Pre-Emergent/Emergent, Basic/Intermediate, Proficient  
+- **AltELPA:** Emerging, Progressing, Proficient
+
+**Table Representation for Growth Points:**
+
+<table>
+  <tr>
+    <th>Prior EL Level</th>
+    <th>Current Year EL Level</th>
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Pre-Emergent/Emergent</td>
+    <td>Basic</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Basic/Intermediate (KG)</td>
+    <td>Intermediate</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Pre-Emergent/Emergent</td>
+    <td>Intermediate</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Pre-Emergent/Emergent</td>
+    <td>Proficient</td>
+    <td>3</td>
+  </tr>
+</table>
+
+**Calculation, EL Growth (5 points):**
+
+**EL Growth School Average Equation:**
+
+$$
+\text{avg\_el\_growth} = \frac{n\_1\text{level\_growth} + (2 \times n\_2\text{levels\_growth}) + (3 \times n\_3\text{levels\_growth})}{n\_el\_tested}
+$$
+
+- **Variables:**  
+  - **n_1level_growth:** Number of EL FAY students with one-level growth.  
+  - **n_2levels_growth:** Number with two-level growth.  
+  - **n_3levels_growth:** Number with three-level growth.  
+  - **n_el_tested:** EL FAY students with two valid AZELLA/AltELPA records.
+
+**EL Growth Statewide Average:**
+
+$$
+avg\_el\_growth\_az = \left[ \frac{sum\_sch\_el\_avg\_growth}{n\_el\_eligible\_schools} \right]
+$$
+
+- **Variables:**  
+  - **sum_sch_el_avg_growth:** Sum of school-level EL growth averages.  
+  - **n_el_eligible_schools:** Number of eligible schools (meeting EL FAY n-count).
+
+**EL Growth Points System:**
+
+<table>
+  <tr>
+    <th>The school's average EL Growth is...</th>
+    <th>K-8 Statewide Range 2023-2024</th>
+    <th>K-8 Statewide Range 2025</th>
+    <th>9-12 & Alt Statewide Range 2023-2024</th>
+    <th>9-12 & Alt Statewide Range 2025</th>
+    <th>Pts</th>
+  </tr>
+  <tr>
+    <td>≥ statewide growth average</td>
+    <td>>= 0.34</td>
+    <td>pending</td>
+    <td>>= 0.32</td>
+    <td>pending</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>0.01 to 0.50 sd below</td>
+    <td>0.27–0.33</td>
+    <td>pending</td>
+    <td>0.26–0.31</td>
+    <td>pending</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>0.51 to 1.00 sd below</td>
+    <td>0.19–0.26</td>
+    <td>pending</td>
+    <td>0.20–0.25</td>
+    <td>pending</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>1.01 to 2.00 sd below</td>
+    <td>0.05–0.18</td>
+    <td>pending</td>
+    <td>0.07–0.19</td>
+    <td>pending</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>2.01 to 3.00 sd below</td>
+    <td>0.01–0.04</td>
+    <td>pending</td>
+    <td>0.01–0.06</td>
+    <td>pending</td>
+    <td>1</td>
+  </tr>
+</table>

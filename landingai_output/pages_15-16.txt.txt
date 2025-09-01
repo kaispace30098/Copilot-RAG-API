@@ -1,0 +1,18 @@
+﻿
+## Key Terms
+
+Below are the definitions of key terms regarding data-inclusion criteria.
+
+## Achievement Assessments
+
+- **AASA** – Arizona's Academic Standards Assessment (AASA) is the statewide achievement test for Arizona students in Grades 3-8. All Arizona public school students in Grades 3-8 will take the grade level AASA assessments in English Language Arts and Mathematics.
+
+- **ACT** – The American College Test (ACT) is the approved statewide assessment for students in Grades 9-12. The ACT is administered to students in Grade 11 during the spring testing window. While students may take the ACT multiple times, accountability measures are calculated using only the ACT that was administered to students in Cohort Grade 11 as part of the state’s statewide assessment. ACT ELA scores are the average of a student’s ACT English, ACT Reading, and ACT Writing tests. To receive an ELA score for accountability calculations, including participation, students must have a valid score on all 3 corresponding portions of the ACT.
+
+- **AzSci** – Arizona's Science Test, the AzSCI assessment will be administered to students in Grades 5, 8, and 11 (Cohort 2026).
+
+- **MSAA** – The Multi-State Alternate Assessment (MSAA) is a comprehensive assessment system designed to promote increasing higher academic outcomes for students with significant cognitive disabilities in preparation for a broader array of post-secondary outcomes. The MSAA will be administered in ELA and Mathematics in Grades 3-8 and 11, and Science in Grades 5, 8, and 11.
+
+- **Alt ELPA** – The Alt ELPA is an alternate English language proficiency assessment designed for English learners with the most significant cognitive disabilities. Students must be determined eligible for alternate assessment by the IEP team. More information can be found on the Alt ELPA page here: [https://www.azed.gov/assessment/AltELPA](https://www.azed.gov/assessment/AltELPA)
+
+- **AZELLA** – The Arizona English Language Learner Assessment (AZELLA) is a standards-based assessment that meets both state and federal requirements to measure students’ English language proficiency. AZELLA is used for both placement and reassessment purposes. Students who have been identified as second language learners on the Home Language Survey take the AZELLA placement test, and the results are used to determine appropriate placement for instruction.
